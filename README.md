@@ -21,7 +21,7 @@ There is an active [PR](https://github.com/hacs/default/pull/2711) to get this i
 
 Until then you will have to add this repository manually:
 
-Go to HACS -> 3 dot menu -> Custom Repositories:- 
+Go to HACS -> 3 dot menu -> Custom Repositories:-
 
 Paste `https://github.com/jampez77/Evri` into Repository field and select `Integration`
 
@@ -34,15 +34,15 @@ Use this route only if you do not want to use [HACS](https://hacs.xyz/) and love
 * Add the `evri` folder in your `custom_components` folder
 
 ---
-## Data 
-The integration will automatically create a `Tracked Parcels` sensor. This will show the total number of tracked parcels and the attrributes will list them by tracking number. Additionally it will also has an attribute list for parcel that are currently out for delivery.
+## Data
+The integration will automatically create a `Tracked Parcels` sensor. This will show the total number of tracked parcels and the attributes will list them by tracking number. Additionally it will also has an attribute list for parcel that are currently out for delivery.
 
 
-Tracking parcels is done entirely via the `track_a_parcel` service call / action. An entity will be create for each parcel and it will automatically be deleted 24 hours after the registered delivery date. There is an optional `post code` paramameter for tracking a parcel, using the delivery post code will retreive more details. 
+Tracking parcels is done entirely via the `track_a_parcel` service call / action. An entity will be create for each parcel and it will automatically be deleted 24 hours after the registered delivery date. There is an optional `post code` parameter for tracking a parcel, using the delivery post code will retrieve more details.
 
 ## Contributing
 
-Contirbutions are welcome from everyone! By contributing to this project, you help improve it and make it more useful for the community. Here's how you can get involved:
+Contributions are welcome from everyone! By contributing to this project, you help improve it and make it more useful for the community. Here's how you can get involved:
 
 ### How to Contribute
 
@@ -60,4 +60,4 @@ Contirbutions are welcome from everyone! By contributing to this project, you he
 [license-shield]: https://img.shields.io/github/license/jampez77/Evri.svg?style=for-the-badge
 [maintenance-shield]: https://img.shields.io/badge/Maintainer-Jamie%20Nandhra--Pezone-blue
 [releases-shield]: https://img.shields.io/github/v/release/jampez77/Evri.svg?style=for-the-badge
-[releases]: https://github.com/jampez77/Evri/releases 
+[releases]: https://github.com/jampez77/Evri/releases
